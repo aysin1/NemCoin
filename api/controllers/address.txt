@@ -1,0 +1,78 @@
+http://172.16.21.3:7890/chain/height
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//var nemLibrary = require('nem-library');
+//var san = new nemapi('http://23.228.67.85:7890/');//testnet default 
+//var san = new nemapi('http://san.nem.ninja:7890');
+//var san = new nemapi('http://199.233.237.83:7890/');
+// // // var san = new nemapi('http://160.16.177.11:7890/');
+
+// // //var san = new nemapi('http://160.16.177.53:7890/');
+import { NEMLibrary, NetworkTypes } from "nem-library";
+
+NEMLibrary.bootstrap(NetworkTypes.TEST_NET);
+
+const accountHttp = new AccountHttp([{
+  protocol: "http",
+  domain: "104.128.226.60",
+  port: 7890
+}]);
+
+const accountHttpWithDefaultConfig = new AccountHttp();
+// var NEM = new nemLibrary({
+//  protocol: "http",
+//  domain: "104.128.226.60",
+//  port: 7890
+// });
+
+// // //var san = new nemapi('http://45.76.144.42:7890/');
+// var san = new nemapi('http://153.126.186.201:7890/');
+// var san = new nemapi('http://172.16.6.37:8890/');
+
+
+
+
+
+
+
+
+
+sender:
+
+
+{
+    "data": {
+        "privateKey": "47dff66d7410cd72547567dbc347ca81d04ff5f8cf7ded66e3a0ee6804cf5a10",
+        "address": "TATTIVB6WRDKACATTLL3C2OFX2JV3W4U7AWLA44B",
+        "publicKey": "e2eb98e3342ae03c7d70d458f21e5985a4928e7c0d5fa269dd92b3f740255b47"
+    }
+}
+
+
+reciever:
+
+{
+    "data": {
+        "privateKey": "009c07e272b57f8d8f65cf10cc95f1478e0ba11b32f86ceb7be1d844591683b20b",
+        "address": "TA5W43GZUHOPUPYO3RFHGSD3D7ZK3G6FUN4MR6FQ",
+        "publicKey": "3db7ab931024cdaad509a6a3c7efa6b1f4c7ff1f17a8b9cb2ee122c7b60fa85e"
+    }
+}

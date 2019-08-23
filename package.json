@@ -1,0 +1,25 @@
+{
+  "name": "nem_integration",
+  "version": "1.0.0",
+  "description": "Nem",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "server.js"
+  },
+  "author": "Surya",
+  "license": "ISC",
+  "dependencies": {
+    "bitcoin-core": "^2.0.0",
+    "bitshares": "^0.1.2",
+    "bitshares-rpc": "^1.0.0",
+    "config": "^1.30.0",
+    "jayson": "^2.0.6",
+    "nem-api": "^1.4.5",
+    "nem-library": "^2.0.0-RC4",
+    "nem-sdk": "^1.6.7",
+    "nodemon": "^1.19.1",
+    "sprintf-js": "^1.1.1",
+    "zcash": "^0.2.0"
+  }
+}
